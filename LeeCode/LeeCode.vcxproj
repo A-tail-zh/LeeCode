@@ -127,10 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LeeCode155.cpp" />
+    <ClInclude Include="ListNode.h" />
+    <ClInclude Include="SqList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ListNode.h" />
+    <ClCompile Include="2.2.2顺序表上基本操作实现_静态分配.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
